@@ -5,7 +5,7 @@
 	height: 150px;
 	left:0;
 	background: url('./wave.png');
-    color: rgb(204, 110, 165);
+    color: #2a5470;
 }
 
 .wave1{
@@ -13,7 +13,7 @@
     z-index: 30;
     opacity: 1;
     animation-delay: 0s;
-    bottom: 0;
+    bottom: -1px;
     transition: animation 2s linear;
 }
 

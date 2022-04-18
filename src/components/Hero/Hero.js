@@ -51,26 +51,6 @@ const Hero = () => {
 			<HeroSection id="hero">
 				<HeroImage className="pattern" src="./images/hero-pattern-bg-lg.png" />
 				<HeroImage className="guy" src="./images/hero-guy-1.png" />
-				<CharacterContainer>
-					{/* <ImageCharacter
-						dragConstraints={dragConstraints}
-						className="one"
-						src="./images/image 1.png"
-					/>
-					<ImageCharacter
-						dragConstraints={dragConstraints}
-						className="two"
-						src="./images/image 2.png"
-					/>
-					<ImageCharacter
-						variants={variants}
-						whileHover="hover"
-						drag
-						dragConstraints={dragConstraints}
-						className="three"
-						src="./images/image 3.png"
-					/> */}
-				</CharacterContainer>
 				<HeroContent>
 					<Heading>I am Uhiene Gift</Heading>
 					<HeroText>

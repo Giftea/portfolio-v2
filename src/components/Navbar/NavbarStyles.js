@@ -27,7 +27,7 @@ export const StickyNav = styled.nav`
 	top: 0;
 	z-index: 990000000;
 	width: 100%;
-	box-shadow: 1px 1px 10px rgba(255, 192, 203, 0.267);
+	box-shadow: 1px 1px 10px #4c417761;
 `;
 
 export const NavbarContainer = styled(Container)`
@@ -127,7 +127,7 @@ export const NavLinks = styled(Link)`
 	height: 100%;
 
 	&:hover {
-		border-bottom: 2px solid #ec421d;
+		border-bottom: 2px solid #fff;
 	}
 
 	@media screen and (max-width: 960px) {

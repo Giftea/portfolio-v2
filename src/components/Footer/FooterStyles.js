@@ -179,9 +179,7 @@ export const FooterContainer = styled.div`
 
 export const FooterMain = styled.div`
 
-	background: linear-gradient( pink 10%, rgb(204, 110, 165) );
+	background: #5E86A1;
 	height: 30vh;
-	border:1px solid red;
 
 `;
-// rgb(80, 26, 80)

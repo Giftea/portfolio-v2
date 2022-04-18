@@ -3,7 +3,10 @@ import { Section } from '../../globalStyles';
 import { motion } from 'framer-motion';
 
 export const HeroSection = styled(Section)`
-	background-image: linear-gradient(to top right,black,pink,purple);
+
+background-color: #4c4177;
+background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+
 	background-size: cover;
 	background-attachment: fixed;
 	z-index: 11;
@@ -17,16 +20,16 @@ export const HeroSection = styled(Section)`
 	}
 
 	@media screen and (min-width: 992px) {
-		height: 710px;
+		height: 120vh;
 	}
 
-	@media screen and (min-width: 1200px) {
-		height: 820px;
-	}
+	// @media screen and (min-width: 1200px) {
+	// 	height: 820px;
+	// }
 
-	@media screen and (min-width: 2000px) {
-		height: 1200px;
-	}
+	// @media screen and (min-width: 2000px) {
+	// 	height: 1200px;
+	// }
 `;
 
 export const HeroImage = styled.img`
@@ -40,10 +43,11 @@ export const HeroImage = styled.img`
 		height: 100%;
 		max-height: 100%;
 		top: 0;
+
 	}
 
 	&.guy {
-		bottom: 0;
+		bottom: -1px;
 	}
 `;
 
@@ -157,14 +161,16 @@ export const HeroButton = styled(motion.button)`
 		width: 64px;
 		height: 64px;
 		padding: 10px;
-		background-color: #ef4b6c;
+		background-color: #4c4177;
 		border-radius: 50%;
 	    z-index: 1000;
-
+		display:flex;
+		align-items:center;
+		justify-content: center;
 	}
 
 	&:hover {
-		box-shadow: 0 10px 20px 10px #5238b123;
+		box-shadow: 0 10px 20px 10px #ffffff47;
 		transition: box-shadow 0.3s ease-in;
 	}
 `;
