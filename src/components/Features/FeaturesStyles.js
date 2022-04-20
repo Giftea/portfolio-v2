@@ -127,24 +127,31 @@ export const AboutWrapper = styled.div`
 `;
 
 export const AboutImageWrapper = styled.div`
-	width: 200%;
+
 	@media screen and (max-width: 768px) {
 		width: unset;
 	}
+	width: 35%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
 
 `;
 
 export const AboutImage = styled.img`
-	width: 100%;
-	border-radius: 15px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
 `;
 
 export const AboutTextWrapper = styled.div`
 	padding:50px;
 	text-align: justify;
+	width: 65%;
 	@media screen and (max-width: 768px) {
 		padding:0px;
 		padding-top:30px;
+		width: unset;
 
 	}
 
