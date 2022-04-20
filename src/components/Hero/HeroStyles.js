@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export const HeroSection = styled(Section)`
 background-color: #4c4177;
-background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+background-image: linear-gradient(315deg, #4c4177 20%, #2a5470 74%);
 	background-size: cover;
 	background-attachment: fixed;
 	z-index: 11;
@@ -101,8 +101,7 @@ export const Heading = styled.h1`
 
 export const HeroText = styled.div`
 	text-align: center;
-	font-size: clamp(0.9rem, 1.5vw, 1.3rem);
-	/* margin-bottom: 1.3rem; */
+	font-size: 16px;
 `;
 
 export const ButtonContainer = styled.div`

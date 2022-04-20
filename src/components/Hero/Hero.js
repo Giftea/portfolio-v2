@@ -60,7 +60,7 @@ const Hero = () => {
 				<HeroImage className="pattern" src="./images/hero-pattern-bg-lg.png" />
 				<HeroImage className="guy" src="./images/hero-guy-1.png" />
 				<HeroContent>
-					<Heading>I am Uhiene Gift</Heading>
+					<Heading>Uhiene Gift</Heading>
 					<HeroText>
 						I am a web developer and technical writer who appreciates efficient and beautiful code
 					</HeroText>

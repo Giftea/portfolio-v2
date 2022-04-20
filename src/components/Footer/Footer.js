@@ -1,22 +1,30 @@
-import React from 'react';
-import { FaFacebook, FaInstagram, FaYoutube, FaTwitter } from 'react-icons/fa';
+import React, { useState } from 'react';
+import { FaGithub, FaLinkedin, FaBlog, FaTwitter } from 'react-icons/fa';
 import './footer.css'
 import {
 	FooterContainer,
 	FooterMain,
-	FooterSubscription,
 	FooterSubHeading,
-	SocialMedia,
-	SocialMediaWrap,
-	SocialLogo,
-	SocialIcon,
-	WebsiteRights,
 	SocialIcons,
 	SocialIconLink,
+	ConnectButton
 
 } from './FooterStyles';
+import Modal from '../Modal/Modal';
 
 const Footer = () => {
+	const [showModal, setShowModal] = useState(false);
+
+	const toggleModal = () => {
+		if (!showModal) {
+			document.body.style.overflow = 'hidden';
+		} else {
+			document.body.style.overflow = 'visible';
+		}
+
+		setShowModal(!showModal);
+	};
+
 	return (
 		<>
 		<FooterContainer>
@@ -24,39 +32,26 @@ const Footer = () => {
 			<div className='wave wave2'> </div>
 			<div className='wave wave3'> </div>
 			<div className='wave wave4'> </div>
-			{/* <Wave5 /> */}
-			{/* <FooterSubscription>
-				<SocialLogo to="/">
-					<SocialIcon src="./images/logo.svg" />
-					esignify
-				</SocialLogo>
-				<FooterSubHeading>Interested working with us?</FooterSubHeading>
-			</FooterSubscription>
-
-			<SocialMedia>
-				<SocialMediaWrap>
-					<WebsiteRights>© Copyright 2021, Designify. All Rights Reserved</WebsiteRights>
-					<SocialIcons>
-						<SocialIconLink href="/" target="blank" aria-label="Facebook">
-							<FaFacebook />
-						</SocialIconLink>
-						<SocialIconLink href="/" target="blank" aria-label="Instagram">
-							<FaInstagram />
-						</SocialIconLink>
-						<SocialIconLink href="/" target="blank" aria-label="Twitter">
-							<FaTwitter />
-						</SocialIconLink>
-						<SocialIconLink href="/" target="blank" aria-label="Youtube">
-							<FaYoutube />
-						</SocialIconLink>
-					</SocialIcons>
-				</SocialMediaWrap>
-			</SocialMedia> */}
-
 		</FooterContainer>
 		<FooterMain>
-			{/* <Button /> */}
+			<FooterSubHeading>Let's Connect!</FooterSubHeading>
+			<ConnectButton onClick={toggleModal}>Contact Me</ConnectButton>
+					<SocialIcons>
+						<SocialIconLink href="https://github.com/Giftea" target="blank" aria-label="Github">
+							<FaGithub />
+						</SocialIconLink>
+						<SocialIconLink href="https://www.linkedin.com/in/gift-uhiene" target="blank" aria-label="Instagram">
+							<FaLinkedin />
+						</SocialIconLink>
+						<SocialIconLink href="https://twitter.com/dev_giftea" target="blank" aria-label="Twitter">
+							<FaTwitter />
+						</SocialIconLink>
+						<SocialIconLink href="https://giftea.hashnode.dev/" target="blank" aria-label="Blog">
+							<FaBlog />
+						</SocialIconLink>
+					</SocialIcons>
 		</FooterMain>
+		<Modal showModal={showModal} toggleModal={toggleModal} />
 		</>
 	);
 };
