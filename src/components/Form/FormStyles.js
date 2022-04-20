@@ -55,7 +55,7 @@ export const FormWrapper = styled.form`
 `;
 
 export const FormButton = styled.input`
-	background-color: #ef4b6c;
+	background-color: #4c4177;
 	width: 100%;
 	margin-top: 2rem;
 	height: 4rem;
@@ -65,14 +65,14 @@ export const FormButton = styled.input`
 	text-transform: uppercase;
 	border-radius: 28px;
 	line-height: 30px;
-	box-shadow: 10px 16px 40px 0 rgb(255 84 117 / 46%);
+	box-shadow: 10px 16px 40px 0 #875ebc22;
 	text-align: center;
 	border: none;
 	color: #fff;
 	cursor: pointer;
 
 	&:hover {
-		background-color: #f06e88;
+		background-color: #875ebcc1;
 		transition: background-color 0.4s ease-in;
 	}
 `;

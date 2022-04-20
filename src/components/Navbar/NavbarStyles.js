@@ -25,7 +25,7 @@ export const StickyNav = styled.nav`
 	font-size: 1.2rem;
 	position: sticky;
 	top: 0;
-	z-index: 990000000;
+	z-index: 990;
 	width: 100%;
 	box-shadow: 1px 1px 10px #4c417761;
 `;
@@ -153,7 +153,7 @@ export const SNavLinks = styled(Link)`
 	height: 100%;
 
 	&:hover {
-		border-bottom: 2px solid #ec421d;
+		border-bottom: 2px solid #2a5470;
 	}
 
 	@media screen and (max-width: 960px) {

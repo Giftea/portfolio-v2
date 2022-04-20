@@ -4,10 +4,6 @@ export const navbarData = [
 		text: 'About',
 	},
 	{
-		to: 'clients',
-		text: 'Clients',
-	},
-	{
 		to: 'projects',
 		text: 'Projects',
 	},

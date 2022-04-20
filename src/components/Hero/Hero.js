@@ -6,18 +6,16 @@ import {
 	HeroText,
 	ButtonContainer,
 	HeroButton,
-	ImageCharacter,
 	HeroImage,
 	HeroContent,
 	ButtonWrapper,
-	CharacterContainer,
 } from './HeroStyles';
 import { useInView } from 'react-intersection-observer';
 import Modal from '../Modal/Modal';
 
 const Hero = () => {
 	const [showModal, setShowModal] = useState(false);
-	const dragConstraints = { top: 0, bottom: 0, right: 0, left: 0 };
+	const [isVisible, setIsVisible] = useState(true);
 
 	const toggleModal = () => {
 		if (!showModal) {
@@ -29,22 +27,32 @@ const Hero = () => {
 		setShowModal(!showModal);
 	};
 
-	const variants = {
-		hover: {
-			y: 15,
-			transition: {
-				yoyo: Infinity,
-				duration: 0.6,
-			},
-		},
-	};
 	const { ref, inView } = useInView({
 		rootMargin: '-100px',
 	});
 
-	useEffect(() => {
-		console.log(inView);
-	}, [inView]);
+	const listenToScroll = () => {
+		let heightToHideFrom = document.body.scrollHeight - 1000;
+		console.log(heightToHideFrom)
+		const winScroll = document.body.scrollTop || 
+			document.documentElement.scrollTop;
+
+		if (winScroll > heightToHideFrom) { 
+		   isVisible &&      // to limit setting state only the first time         
+			 setIsVisible(false);
+		} else {
+			 setIsVisible(true);
+		}  
+	  };
+
+	
+
+	useEffect(() => {   
+		window.addEventListener("scroll", listenToScroll);
+		return () => 
+		   window.removeEventListener("scroll", listenToScroll); 
+	  }, [])
+
 
 	return (
 		<>
@@ -57,16 +65,17 @@ const Hero = () => {
 						I am a web developer and technical writer who appreciates efficient and beautiful code
 					</HeroText>
 					<ButtonContainer ref={ref}>
-						<ButtonWrapper>
-							<HeroButton onClick={toggleModal} className={inView ? '' : 'corner'}>
-								{inView ? (
-									<> Contact Me</>
-								) : (
-									<FiMail color="white" size="2.3rem" />
-								)}
-							</HeroButton>
-						</ButtonWrapper>
-					</ButtonContainer>
+					<ButtonWrapper>						
+						<HeroButton onClick={toggleModal} className={`${inView ? ' ': 'corner'} ${isVisible ? '': 'animate__animated animate__fadeOutDownBig'}`}>
+							{inView ? (
+								<> Contact Me</>
+							) : (
+								<FiMail color="white" size="2.3rem" />
+							)}
+						</HeroButton>
+					</ButtonWrapper>
+				</ButtonContainer>
+
 				</HeroContent>
 			</HeroSection>
 			<Modal showModal={showModal} toggleModal={toggleModal} />

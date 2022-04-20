@@ -35,7 +35,6 @@ const Navbar = () => {
 
 	const closeMobileMenu = (id) => {
 		scrollTo(id);
-
 		setShow(false);
 	};
 
@@ -67,6 +66,9 @@ const Navbar = () => {
 								</SNavLinks>
 							</NavItem>
 						))}
+					<NavItem>
+						<SNavLinks to='/articles' >Articles</SNavLinks>
+					</NavItem>
 					</NavMenu>
 				</NavbarContainer>
 			</StickyNav>:
@@ -82,11 +84,14 @@ const Navbar = () => {
 				<NavMenu show={show}>
 					{navbarData.map((el, index) => (
 						<NavItem key={index}>
-							<NavLinks to="/" onClick={() => closeMobileMenu(el.to)}>
+							<NavLinks to='' onClick={() => closeMobileMenu(el.to)}>
 								{el.text}
 							</NavLinks>
 						</NavItem>
 					))}
+					<NavItem>
+						<NavLinks to='/articles' >Articles</NavLinks>
+					</NavItem>
 				</NavMenu>
 			</NavbarContainer>
 		</Nav>

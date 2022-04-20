@@ -25,7 +25,7 @@ export const ModalWrapper = styled(motion.div)`
 	position: relative;
 	overflow: scroll;
 	border-radius: 10px;
-	z-index: 100;
+	z-index: 100000000000;
 `;
 
 export const CloseModalButton = styled(MdClose)`
