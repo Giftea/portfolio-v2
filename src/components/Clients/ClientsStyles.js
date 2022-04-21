@@ -23,7 +23,7 @@ export const ClientTextWrapper = styled.div`
 		position: absolute;
 		bottom: 0;
 		left: 50%;
-		background-color: #ef4b6c;
+		background-color: #875ebc;
 		transform: translateX(-50%);
 	}
 `;
@@ -52,10 +52,10 @@ export const ClientRow = styled.div`
 	display: flex;
 	justify-content: center;
 
-	@media screen and (max-width: 1100px) {
-		flex-direction: column;
-		align-items: center;
-	}
+	// @media screen and (max-width: 1100px) {
+	// 	flex-direction: column;
+	// 	align-items: center;
+	// }
 `;
 
 export const ClientColumn = styled.div`
@@ -64,19 +64,20 @@ export const ClientColumn = styled.div`
 	justify-content: center;
 	align-items: center;
 	margin: 0.4rem;
-
-	@media screen and (max-width: 1100px) {
-		div:not(:first-child) {
-			display: none;
-		}
-	}
+	// @media screen and (max-width: 1100px) {
+	// 	div:not(:first-child) {
+	// 		display: none;
+	// 	}
+	// }
 `;
 
 export const ClientImage = styled.img`
 	width: 90px;
 	@media screen and (max-width: 1100px) {
-		width: clamp(80px, 40vw, 400px);
-		height: 60%;
+		// width: clamp(80px, 40vw, 400px);
+		// height: 60%;
+	width: 40px;
+
 	}
 `;
 export const ClientWrapper = styled.div`
@@ -84,10 +85,15 @@ export const ClientWrapper = styled.div`
 	border-radius: 1rem;
 	height: 110px;
 	width: 100%;
-	box-shadow: 0 0 32px 8px #dfdfdf;
+	box-shadow: 0 -20px 40px 0 #2a547025;
 	background-color: #fafeff;
 	margin: 0.4rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
+	@media screen and (max-width: 1100px) {
+		padding: 10px;
+		height: 60px;
+	}
 `;

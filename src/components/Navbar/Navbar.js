@@ -67,7 +67,7 @@ const Navbar = () => {
 							</NavItem>
 						))}
 					<NavItem>
-						<SNavLinks to='/articles' >Articles</SNavLinks>
+						<SNavLinks to='/articles' >Blog</SNavLinks>
 					</NavItem>
 					</NavMenu>
 				</NavbarContainer>
@@ -90,7 +90,7 @@ const Navbar = () => {
 						</NavItem>
 					))}
 					<NavItem>
-						<NavLinks to='/articles' >Articles</NavLinks>
+						<NavLinks to='/articles' >Blog</NavLinks>
 					</NavItem>
 				</NavMenu>
 			</NavbarContainer>

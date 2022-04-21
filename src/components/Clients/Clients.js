@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container } from '../../globalStyles';
 import {
 	ClientSection,
@@ -11,22 +11,28 @@ import {
 	ClientTextWrapper,
 } from './ClientsStyles';
 import { clientsData } from '../../data/ClientsData';
+import { useInView } from 'react-intersection-observer';
 
 const Clients = () => {
+
+	const { ref, inView } = useInView({
+		rootMargin: '-100px',
+	});
+
+	
 	return (
 		<ClientSection id="clients">
 			<Container>
 				<ClientTextWrapper>
-					<ClientTitle>Our Clients</ClientTitle>
-					<ClientText>We’ve been working with the teams around the world.</ClientText>
+					<ClientTitle>Skills</ClientTitle>
 				</ClientTextWrapper>
 
-				<ClientRow>
+				<ClientRow ref={ref} >
 					{clientsData.map((clients, clientsIndex) => (
 						<ClientColumn key={clientsIndex}>
 							{clients.map((el, index) => (
-								<ClientWrapper key={index}>
-									<ClientImage src={`./images/companies/${el.name}.svg`} />
+								<ClientWrapper key={index}  className={inView && `animate__animated animate__fadeInUp animate__delay-${el.duration}s animate__faster`}>
+									<ClientImage src={`./images/companies/${el.name}.png`} />
 								</ClientWrapper>
 							))}
 						</ClientColumn>
