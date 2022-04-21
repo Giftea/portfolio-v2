@@ -1,3 +1,6 @@
 body {
     color: #2a547025;
+    grid-template-columns: 3 1fr;
+	justify-content: space-around;
+
 }

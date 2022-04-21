@@ -7,4 +7,8 @@ export const navbarData = [
 		to: 'projects',
 		text: 'Projects',
 	},
+	{
+		to: 'articles',
+		text: 'Articles'
+	}
 ];

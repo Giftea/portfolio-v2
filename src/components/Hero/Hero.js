@@ -33,7 +33,7 @@ const Hero = () => {
 
 	const listenToScroll = () => {
 		let heightToHideFrom = document.body.scrollHeight - 1000;
-		console.log(heightToHideFrom)
+		
 		const winScroll = document.body.scrollTop || 
 			document.documentElement.scrollTop;
 

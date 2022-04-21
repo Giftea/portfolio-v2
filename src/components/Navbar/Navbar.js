@@ -66,9 +66,6 @@ const Navbar = () => {
 								</SNavLinks>
 							</NavItem>
 						))}
-					<NavItem>
-						<SNavLinks to='/articles' >Blog</SNavLinks>
-					</NavItem>
 					</NavMenu>
 				</NavbarContainer>
 			</StickyNav>:
@@ -89,9 +86,9 @@ const Navbar = () => {
 							</NavLinks>
 						</NavItem>
 					))}
-					<NavItem>
+					{/* <NavItem>
 						<NavLinks to='/articles' >Blog</NavLinks>
-					</NavItem>
+					</NavItem> */}
 				</NavMenu>
 			</NavbarContainer>
 		</Nav>

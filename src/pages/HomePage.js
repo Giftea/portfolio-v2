@@ -5,6 +5,7 @@ import Features from '../components/Features/Features';
 import Hero from '../components/Hero/Hero';
 import { heroOne, heroTwo, heroThree, heroFour } from '../data/HeroData';
 import { Heading } from '../globalStyles';
+import Articles from '../components/Articles/Articles';
 
 const HomePage = () => {
 	return (
@@ -19,6 +20,7 @@ const HomePage = () => {
 			<Content {...heroTwo} />
 			<Content {...heroThree} />
 			<Content {...heroFour} />
+			<Articles/>
 		</>
 	);
 };

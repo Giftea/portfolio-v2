@@ -3,7 +3,6 @@ import { Container } from '../../globalStyles';
 import {
 	ClientSection,
 	ClientColumn,
-	ClientText,
 	ClientTitle,
 	ClientRow,
 	ClientWrapper,
@@ -18,7 +17,6 @@ const Clients = () => {
 	const { ref, inView } = useInView({
 		rootMargin: '-100px',
 	});
-
 	
 	return (
 		<ClientSection id="clients">
