@@ -66,7 +66,7 @@ const Hero = () => {
 					</HeroText>
 					<ButtonContainer ref={ref}>
 					<ButtonWrapper>						
-						<HeroButton onClick={toggleModal} className={`${inView ? ' ': 'corner'} ${isVisible ? '': 'animate__animated animate__fadeOutDownBig'}`}>
+						<HeroButton onClick={toggleModal} className={`${inView ? ' ': 'corner'} ${isVisible ? '': 'animate__animated animate__fadeOutDownBig animate__slower'}`}>
 							{inView ? (
 								<> Contact Me</>
 							) : (

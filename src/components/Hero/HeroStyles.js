@@ -3,8 +3,8 @@ import { Section } from '../../globalStyles';
 import { motion } from 'framer-motion';
 
 export const HeroSection = styled(Section)`
-background-color: #4c4177;
-background-image: linear-gradient(315deg, #4c4177 20%, #2a5470 74%);
+	background-color: #4c4177;
+	background-image: linear-gradient(315deg, #4c4177 20%, #2a5470 74%);
 	background-size: cover;
 	background-attachment: fixed;
 	z-index: 11;
@@ -18,12 +18,7 @@ background-image: linear-gradient(315deg, #4c4177 20%, #2a5470 74%);
 	@media screen and (min-width: 992px) {
 		height: 120vh;
 	}
-	// @media screen and (min-width: 1200px) {
-	// 	height: 820px;
-	// }
-	// @media screen and (min-width: 2000px) {
-	// 	height: 1200px;
-	// }
+
 `;
 
 export const HeroImage = styled.img`

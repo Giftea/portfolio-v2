@@ -97,7 +97,8 @@ export const NavMenu = styled.ul`
 		visibility: ${({ show }) => (show ? 'visible' : 'hidden')};
 		transform: translateY(${({ show }) => (show ? '0' : '-10px')});
 		transition: opacity 0.5s ease;
-		background-color: #41d0e1;
+		background-color: #4c4177;
+		background-image: linear-gradient(315deg, #4c4177 20%, #2a5470 74%);
 	}
 
 	> li:first-child {
@@ -110,6 +111,7 @@ export const NavItem = styled.li`
 	cursor: pointer;
 	display: flex;
 	align-items: center;
+	justify-content:center;
 	@media screen and (max-width: 960px) {
 		width: 100%;
 
@@ -162,6 +164,7 @@ export const SNavLinks = styled(Link)`
 		padding: 2rem;
 		width: 100%;
 		display: table;
+	    color: #fff;
 
 		&:hover {
 			border-bottom: none;
@@ -192,6 +195,21 @@ export const Resume = styled(Link)`
 	padding: 0.5rem 1rem;
 	border: 1px dashed #fff;
 	border-radius: 50px;
+
+	@media screen and (max-width: 960px) {
+		text-align: center;
+		padding: 1rem;
+		width: 60%;
+		display: table;
+	    color: #fff;
+		border: 1px dashed #fff;
+
+		&:hover {
+			border-bottom: none;
+			color: #4b59f7;
+			transition: all 0.3s ease;
+		}
+	}
 `
 export const SResume = styled(Link)`
 	color: #333;
@@ -201,4 +219,18 @@ export const SResume = styled(Link)`
 	padding: 0.5rem 1rem;
 	border: 1px dashed #333;
 	border-radius: 50px;
+	@media screen and (max-width: 960px) {
+		text-align: center;
+		padding: 1rem;
+		width: 60%;
+		display: table;
+	    color: #fff;
+		border: 1px dashed #fff;
+
+		&:hover {
+			border-bottom: none;
+			color: #4b59f7;
+			transition: all 0.3s ease;
+		}
+	}
 `
