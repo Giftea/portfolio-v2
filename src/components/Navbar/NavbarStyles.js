@@ -108,7 +108,8 @@ export const NavMenu = styled.ul`
 export const NavItem = styled.li`
 	height: 80px;
 	cursor: pointer;
-
+	display: flex;
+	align-items: center;
 	@media screen and (max-width: 960px) {
 		width: 100%;
 
@@ -145,7 +146,7 @@ export const NavLinks = styled(Link)`
 `;
 
 export const SNavLinks = styled(Link)`
-	color: #000;
+	color: #333;
 	display: flex;
 	align-items: center;
 	text-decoration: none;
@@ -181,3 +182,23 @@ export const NavBtnLink = styled(Link)`
 	border: none;
 	outline: none;
 `;
+
+
+export const Resume = styled(Link)`
+	color: #fff;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	border: 1px dashed #fff;
+	border-radius: 50px;
+`
+export const SResume = styled(Link)`
+	color: #333;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	border: 1px dashed #333;
+	border-radius: 50px;
+`

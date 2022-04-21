@@ -14,6 +14,8 @@ import {
 	StickyNav,
 	SNavLogo,
 	SNavLinks,
+	Resume,
+	SResume
 } from './NavbarStyles';
 import { navbarData } from '../../data/NavbarData';
 
@@ -66,6 +68,9 @@ const Navbar = () => {
 								</SNavLinks>
 							</NavItem>
 						))}
+						<NavItem>
+							<SResume to='/files/file.pdf' target="_blank" download>Résumé</SResume>
+						</NavItem>
 					</NavMenu>
 				</NavbarContainer>
 			</StickyNav>:
@@ -86,9 +91,9 @@ const Navbar = () => {
 							</NavLinks>
 						</NavItem>
 					))}
-					{/* <NavItem>
-						<NavLinks to='/articles' >Blog</NavLinks>
-					</NavItem> */}
+					<NavItem>
+						<Resume to='/files/file.pdf' target="_blank" download>Résumé</Resume>
+					</NavItem>
 				</NavMenu>
 			</NavbarContainer>
 		</Nav>
