@@ -10,6 +10,7 @@ import {
   ArticlesTitle,
   ArticleWrapper,
   ArticleContainer,
+  ArticleImageWrapper
 } from "./ArticleStyles";
 import { GET_USER_ARTICLES } from "../../data/BlogData";
 import axios from "axios";
@@ -17,7 +18,9 @@ import axios from "axios";
 const Article = ({ title, coverImage, slug, brief }) => {
   return (
     <ArticleWrapper>
-      <ArticleImage src={coverImage} alt={title} />
+      <ArticleImageWrapper>
+       <ArticleImage src={coverImage} alt={title} />
+      </ArticleImageWrapper>
       <ArticleText>
         <ArticleTitle
           target="_blank"

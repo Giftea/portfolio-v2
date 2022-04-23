@@ -6,6 +6,7 @@ import {
   AboutTextsWrapper,
   AboutWrapper,
   AboutImage,
+  AboutImg,
   AboutTextWrapper,
   AboutImageWrapper,
 } from "./AboutStyles";
@@ -19,7 +20,7 @@ const About = () => {
         </AboutTextsWrapper>
         <AboutWrapper>
           <AboutImageWrapper>
-            <AboutImage src="./images/about/me.jpg" />
+            <AboutImage ><AboutImg src="./images/about/me.jpg" /></AboutImage>
           </AboutImageWrapper>
           <AboutTextWrapper>
             <p>

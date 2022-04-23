@@ -55,10 +55,17 @@ export const AboutImageWrapper = styled.div`
   align-items: center;
 `;
 
-export const AboutImage = styled.img`
+export const AboutImage = styled.div`
   width: 300px;
   height: 300px;
   border-radius: 50%;
+`;
+
+export const AboutImg = styled.img`
+object-fit: cover;
+width: 100%;
+height: 100%;
+border-radius: 50%;
 `;
 
 export const AboutTextWrapper = styled.div`

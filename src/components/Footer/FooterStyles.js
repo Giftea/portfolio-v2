@@ -51,9 +51,23 @@ export const ConnectButton = styled(motion.button)`
   background-color: white;
   color: #5238b1;
   cursor: pointer;
-  transition: all 0.4s ease-in;
-  &:hover {
-    box-shadow: 0 10px 20px 10px #ffffff47;
-    transition: box-shadow 0.3s ease-in;
+  // transition: all 0.4s ease-in;
+  overflow: hidden;
+  position: relative;
+
+  &:before{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(120deg, transparent, rgba(42, 20, 84, .2), #2a547014 74%, transparent);
+    transition: all 650ms;
+}
+
+  &:hover::before{
+      left: 100%;
   }
+
 `;

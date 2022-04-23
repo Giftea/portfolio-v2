@@ -70,13 +70,15 @@ export const ArticleBrief = styled.h2`
 
 export const ArticleImage = styled.img`
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+`;
+
+export const ArticleImageWrapper = styled.div`
+  width: 100%;
   height: 200px;
   border-radius: 10px 10px 0 0;
-
-  &:hover {
-    transform: rotate(0deg) scale(1) translateX(0) translateZ(0);
-    transition: all 0.3s ease;
-  }
 `;
 
 export const ArticleTitle = styled.a`
