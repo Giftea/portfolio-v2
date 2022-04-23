@@ -2,10 +2,10 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 export const ContentSec = styled.div`
-  padding: 100px 0;
+  padding: 100px 0 0 0;
   background: #fff;
   @media screen and (max-width: 768px) {
-    padding: 70px 0;
+    padding: 70px 0 0 0;
   }
 `;
 

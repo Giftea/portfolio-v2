@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
 export const AboutSection = styled.div`
-  padding: 100px;
+  padding: 0 70px ;
   position: relative;
   margin: 0 auto;
 
   @media screen and (max-width: 768px) {
-    padding: 70px 0;
-    margin-top: 10rem;
+    padding: 40px 0;
   }
 `;
 

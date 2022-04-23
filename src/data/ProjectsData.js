@@ -1,16 +1,16 @@
 export const projectFive = {
   id: "projects",
   topLine: {
-    text: "Landing Page",
+    text: "Mobile. Expo. React Native",
   },
-  headline: "Kamza Ads",
+  headline: "ProNef",
   description:
-    "A beautiful landing page! ",
+    "ProNef is built with React Native and Expo. The app contains two screens. The first screen shows all NFTs and the second shows the details of an NFT.",
   buttonLabel: "View Project",
-  linkTo: "https://kamza-ads.netlify.app/",
+  linkTo: "https://expo.dev/@giftea/nft_marketplace?serviceType=classic&distribution=expo-go",
   imgStart: "",
-  img: "./images/content/kamza.png",
-  backgroundColor: "linear-gradient(	150deg,#1ea59a -20%,rgba(30,165,154,.1))",
+  img: "./images/content/scene.png",
+  backgroundColor: "linear-gradient(	150deg,#001F2D,#74858C)",
   start: "true",
 };
 
