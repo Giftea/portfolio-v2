@@ -58,8 +58,7 @@ const Hero = () => {
         <HeroContent>
           <Heading>Uhiene Gift</Heading>
           <HeroText>
-            I am a web developer and technical writer who appreciates efficient
-            and beautiful code
+            Frontend Developer and Technical Writer in love with the ever-learning journey of being a developer.
           </HeroText>
           <ButtonContainer ref={ref}>
             <ButtonWrapper>
