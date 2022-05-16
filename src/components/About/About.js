@@ -20,24 +20,30 @@ const About = () => {
         </AboutTextsWrapper>
         <AboutWrapper>
           <AboutImageWrapper>
-            <AboutImage ><AboutImg src="./images/about/me.jpg" /></AboutImage>
+            <AboutImage>
+              <AboutImg src="./images/about/me.jpg" />
+            </AboutImage>
           </AboutImageWrapper>
           <AboutTextWrapper>
             <p>
-              I am an experienced frontend developer focused on creating usable
-              pieces of code for humans. I’m so passionate about building highly
-              performant and maintainable web applications that help businesses
-              meet their goals. My expertise cuts across several programming
-              languages, frameworks and tools: HTML, CSS, JavaScript, ReactJs,
-              Redux, MongoDB, Tailwind CSS, Bootstrap, version control with Git,
-              WordPress. <br /> <br />I am passionate about sharing my technical
-              knowledge by facilitating frontend web development classes and
-              writing on my blog. It is always a pleasure connecting with many
-              of the mentees discussing career development, side projects, and
-              content creation. Currently, I’m working as a lead front-end
-              developer, UK-Dion group working collaboratively with a
-              cross-functional team to build internal and customer-facing
-              applications for customers across all the compan
+              With a BSc in Human Anatomy from the University of Port Harcourt
+              in Nigeria, I am a self-taught Frontend Developer. I started
+              coding in my second year of university and have been hooked ever
+              since.
+              <br /> <br /> Professionally, I mostly use HTML5, CSS3,
+              JavaScript, TypeScript, React.js/Nextjs, Node.js, Bootstrap,
+              TailwindCSS, Material UI, Materialize, Ant Design e.t.c.
+              <br /> <br /> I appreciate the constant learning that comes with
+              my profession, and I have a{" "}
+              <a
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://giftea.hashnode.dev"
+              >
+                blog {" "}
+              </a>
+              where I share new concepts and approaches I've learnt.<br /> <br /> My favorite
+              pastimes are reading, coding, writing, and listening to music.
             </p>
           </AboutTextWrapper>
         </AboutWrapper>
