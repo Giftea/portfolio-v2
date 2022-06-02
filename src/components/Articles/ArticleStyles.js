@@ -35,8 +35,8 @@ export const ArticlesTitle = styled.h2`
 `;
 
 export const ArticleWrapper = styled.div`
-  width: 32%;
-  margin: 1rem 0;
+  width: 30%;
+  margin: 1.2rem 0;
   @media screen and (max-width: 1150px) {
     width: 45%;
   }

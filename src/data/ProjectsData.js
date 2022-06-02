@@ -11,11 +11,10 @@ export const projectFive = {
   imgStart: "",
   img: "./images/content/scene.png",
   backgroundColor: "linear-gradient(	150deg,#001F2D,#74858C)",
-  start: "true",
+  reverse: true,
 };
 
 export const projectFour = {
-  reverse: true,
   topLine: {
     text: "1kland. WordPress.",
   },
@@ -42,14 +41,13 @@ export const projectOne = {
   buttonLabel: "View Project",
 
   linkTo: "https://threza.vercel.app/",
-  imgStart: "",
+  reverse: "true",
   backgroundColor: "linear-gradient(104deg,#132c3e 0%, #66abc1 150%)",
   img: "./images/content/threza.png",
-  start: "true",
+  start: "",
 };
 
 export const projectTwo = {
-  reverse: true,
   topLine: {
     text: "Photography. Creativity. Sanity.io",
   },
@@ -62,10 +60,12 @@ export const projectTwo = {
   imgStart: "",
   backgroundColor: "linear-gradient(225deg,#888,#333)",
   img: "./images/content/instapic.png",
-  start: "true",
+  start: "",
+
 };
 
 export const projectThree = {
+  reverse: true,
 	topLine: {
 	  text: "Ecommerce. CRUD. Fullstack",
 	},
@@ -81,3 +81,18 @@ export const projectThree = {
 	start: "true",
   };
   
+  export const projectSix ={
+    topLine: {
+      text: "Dapp. NEAR-Blockchain. Smart-Contract",
+    },
+    headline: "NEAR-Tours ",
+    description:
+      "A fullstack Dapp built on the built with AssemblyScript on the NEAR Protocol. Users can add tours and interact with tours create by others. Connect NEAR wallet to access Dapp",
+    buttonLabel: "View Project",
+    
+    linkTo: "https://giftea.github.io/NEAR-tour-ui",
+    imgStart: "",
+    backgroundColor: "linear-gradient(104deg,#4f5c59 0%, #84b5e0 100%)",
+    img: "https://user-images.githubusercontent.com/70780434/171515612-871777c8-a6ef-41b0-b795-4312a42146b0.png",
+    start: "true",
+  }

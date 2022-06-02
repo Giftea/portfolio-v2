@@ -58,7 +58,7 @@ const Articles = () => {
         </ArticleTextWrapper>
         <ArticleContainer>
           {posts ? (
-            posts.slice(0, 3).map((post) => {
+            posts.slice(0, 6).map((post) => {
               return (
                 <Article
                   key={post.slug}
