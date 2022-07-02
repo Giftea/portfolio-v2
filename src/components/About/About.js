@@ -21,7 +21,7 @@ const About = () => {
         <AboutWrapper>
           <AboutImageWrapper>
             <AboutImage>
-              <AboutImg src="./images/about/me.jpg" />
+              <AboutImg src="https://res.cloudinary.com/dvxrsopw3/image/upload/v1656761077/me_wvrbnd.jpg" />
             </AboutImage>
           </AboutImageWrapper>
           <AboutTextWrapper>
