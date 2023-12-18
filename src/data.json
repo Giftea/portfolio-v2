@@ -1,0 +1,510 @@
+{
+  "headerData": {
+    "logoDark": "/images/logo.svg",
+    "logoLight": "/images/logo-light.svg"
+  },
+  "heroData": {
+    "title": "I'm <b>Gift</b> <span><br />Uhiene...</span>",
+    "subTitle": "<span>Frontend Developer & Technical Writer</span>",
+    "ImgLink": "/images/me.png",
+    "phone": "giftea.hashnode.dev",
+    "email": "eleojogiftuhiene@gmail.com",
+    "btnText": "Hire me",
+    "socialData": [
+      {
+        "link": "https://www.linkedin.com/in/gift-uhiene/",
+        "icon": "linkedin"
+      },
+      {
+        "link": "https://github.com/giftea",
+        "icon": "github"
+      },
+      {
+        "link": "https://giftea.hashnode.dev/",
+        "icon": "hashnode"
+      }
+    ]
+  },
+  "aboutData": {
+    "aboutLeft": {
+      "ImgLink": "/images/me.jpg",
+      "name": "Gift Uhiene",
+      "designation": "Frontend Developer & Technical Writer",
+      "resumeCv": "/images/Gift-Uhiene.pdf"
+    },
+    "aboutRight": {
+      "aboutText": "Hello there! I'm a self-taught frontend developer passionate about creating seamless user experiences. My personal blog delves into developer-related topics, and you can catch my contributions on freecodecamp, openreplay, and pieces. As a self-taught developer, I deeply value community support, and I actively contribute to open-source projects as a way of giving back.",
+      "contactInfo": [
+        {
+          "icon": "person",
+          "data": "Gift Uhiene"
+        },
+        {
+          "icon": "twitter",
+          "data": "@dev_giftea"
+        },
+        {
+          "icon": "envelope",
+          "data": "eleojogiftuhiene@gmail.com"
+        },
+        {
+          "icon": "map",
+          "data": "Nigeria"
+        }
+      ],
+      "archivement": [
+        {
+          "number": "2+",
+          "meta": "Years <br /> experience...",
+          "text": "Join me in shaping the future of frontend development, where my dedication to user-centric design and continuous learning propels me forward. Let's build together and make a mark in the dynamic world of digital experiences!"
+        }
+      ],
+      "note": "“Code is like humor. When you have to explain it, it’s bad.” <br /><span className=\"dark-text\">- Cory House </span>"
+    }
+  },
+  "resumeData": {
+    "experienceTitle": "Experience",
+    "experience": {
+      "one": [
+        {
+          "title": "Frontend Developer & Technical Writer",
+          "duration": "Oct 2022 - Sept 2023",
+          "subTitle": "Koii Network (Remote, Canada)",
+          "text": "Authored high-quality technical tutorials, enabling developers to build applications on the Koii Architecture."
+        },
+        {
+          "title": "React Developer",
+          "duration": "Jan 2022 - Mar 2022",
+          "subTitle": "Subsocial (Remote, Ukraine)",
+          "text": "Collaborated with the core team members of Subsocial to improve the UI of the Subsocial dapp and add new features to SubId."
+        }
+      ],
+      "two": [
+        {
+          "title": "Frontend Developer",
+          "duration": "Jan 2021 - Dec 2021",
+          "subTitle": "Loctech Nigeria",
+          "text": "Collaborated with a cross-functional team to develop Enterprise Resource Planning (ERP) applications for leading engineering service companies in Nigeria."
+        },
+        {
+          "title": "Jr Frontend Developer",
+          "duration": "Sept 2020 - Dec 2020",
+          "subTitle": "Zebullon Network",
+          "text": "Built landing pages for SMEs to increase the conversion of their offerings."
+        }
+      ]
+    },
+    "educationTitle": "Education",
+    "education": [
+      {
+        "title": "BSc Human Anatomy",
+        "duration": "2016 - 2021",
+        "subTitle": "University of Port Harcourt"
+      }
+    ]
+  },
+  "experienceData": {
+    "text": "Software Skills",
+    "resumeCv": "/images/Gift-Uhiene.pdf",
+    "skills": [
+      { "title": "Documentation", "text": "Docusaurus, Gitbook, and Markdown" },
+      {
+        "title": "Frontend Development",
+        "text": "HTML, CSS, Javascript, Typescript, Reactjs, Nextjs, Redux, Sass, Tailwind, Antd, Material UI, Bootstrap, Styled Components."
+      },
+      {
+        "title": "Smart Contract Development",
+        "text": "Solidity, Web3.js, and Ethers.js"
+      },
+      { "title": "Backend Development", "text": "Node.js, Rust" },
+      {
+        "title": "Others",
+        "text": "Netlify, Vercel, Git, Responsive Web Design, SSR, Framer Motion"
+      }
+    ],
+    "contributions": {
+      "text": "Blogs I contribute to:",
+      "blog": ["FreeCodeCamp", "OpenReplay", "Code Pieces", "Hackmamba"]
+    },
+    "experience": {
+      "one": [
+        {
+          "start": "Oct 2022",
+          "end": "Sept 2023",
+          "title": "Frontend Developer & Technical Writer",
+          "subtitle": "Koii Network"
+        },
+        {
+          "start": "Jan 2022",
+          "end": "Mar 2022",
+          "title": "React Developer",
+          "subtitle": "Subsocial"
+        }
+      ],
+      "two": [
+        {
+          "start": "Jan 2021",
+          "end": "Dec 2021",
+          "title": "Frontend Developer",
+          "subtitle": "Loctech"
+        },
+        {
+          "start": "Sept 2020",
+          "end": "Dec 2020",
+          "title": "Junior Frontend Developer",
+          "subtitle": "Zebullon Network"
+        }
+      ]
+    }
+  },
+  "serviceData": [
+    {
+      "title": "Web Design",
+      "heading": "Perspiciatis vero deleniti dolor assumenda voluptatum animi",
+      "triger": "One",
+      "imgLink": "/images/services-1.jpg",
+      "text": "Perspiciatis vero deleniti dolor assumenda voluptatum animi ut repellendus sit dolorem asperiores! Porro ullam pariatur neque beatae. Suscipit veniam fugiat vero, dolores perspiciatis asperiores, labore aspernatur quis enim ex quibusdam laboriosam ipsam qui ullam nulla iusto blanditiis praesentium fugit quo officiis doloremque provident! Dignissimos praesentium alias aliquid fugiat nihil tenetur itaque perspiciatis."
+    },
+    {
+      "title": "UI/UX Design",
+      "heading": "You can customize a template or make your own from scratch, with an immersive library at your disposal. You can customize a template",
+      "triger": "Two",
+      "imgLink": "/images/services-2.jpg",
+      "text": "Adipisci vitae ducimus voluptas veniam quidem, mollitia deserunt nihil, nulla cumque fugit laborum inventore similique, debitis neque tempore ipsa aspernatur? Necessitatibus vero ducimus molestiae doloribus reprehenderit modi vitae illum eos animi fugiat placeat blanditiis adipisci earum ab laborum id voluptates quo."
+    },
+    {
+      "title": "Mobile Application",
+      "heading": "Neque quo numquam consequuntur odio porro quidem soluta amet eveniet. Similique eum cupiditate repellat ipsa.",
+      "triger": "Three",
+      "imgLink": "/images/services-3.jpg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente nulla repellendus consequuntur! Ipsa perferendis explicabo reiciendis, quos sint nobis praesentium officia consequuntur! Ullam maxime, provident placeat nesciunt eius distinctio ipsam modi vel nam iste ea neque quo numquam consequuntur odio porro quidem soluta amet eveniet. Similique eum cupiditate repellat ipsa."
+    },
+    {
+      "title": "User Research",
+      "heading": "Sint, mollitia accusamus odit inventore, veritatis eos repellendus nihil voluptates voluptatibus adipisci",
+      "triger": "Four",
+      "imgLink": "/images/services-4.jpg",
+      "text": "Sint, mollitia accusamus odit inventore, veritatis eos repellendus nihil voluptates voluptatibus adipisci sequi exercitationem optio labore perferendis aliquid cupiditate, nesciunt doloremque? Quidem totam, quas neque repudiandae amet rem harum inventore quo! Fuga ad esse excepturi optio, sint cum laborum."
+    }
+  ],
+  "portfolioData": [
+    {
+      "ImgLink": "/images/sav.png",
+      "subTitle": "Web3 • Hackathon",
+      "title": "Saving History",
+      "link": "https://saving-history-giftea.vercel.app/",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/near.png",
+      "subTitle": "NEAR-Blockchain • Dapp",
+      "title": "NEAR-Tours",
+      "link": "https://giftea.github.io/NEAR-tour-ui",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/threza.png",
+      "subTitle": "Dapp • Ethereum",
+      "title": "Threza",
+      "link": "https://threza.vercel.app/",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/kid.png",
+      "subTitle": "CRUD • Fullstack",
+      "title": "KiddeizGo",
+      "link": "http://kiddiezgo.herokuapp.com/",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    }
+  ],
+  "blogData": [
+    {
+      "ImgLink": "/images/react-chat.png",
+      "date": "Aug 27, 2021",
+      "delay": "700",
+      "title": "Simple Chat App with react-chat-engine",
+      "link": "https://giftea.hashnode.dev/simple-chat-app-with-react-chat-engine"
+    },
+    {
+      "ImgLink": "/images/react-syn.png",
+      "date": "Oct 24, 2021",
+      "delay": "700",
+      "title": "Synthetic Events in React",
+      "link": "https://giftea.hashnode.dev/synthetic-events-in-react"
+    },
+    {
+      "ImgLink": "/images/shebang.png",
+      "date": "Nov 24, 2021",
+      "delay": "700",
+      "title": "Using tsm as a shebang interpreter in TypeScript",
+      "link": "https://giftea.hashnode.dev/using-tsm-as-a-shebang-interpreter-in-typescript"
+    },
+
+    {
+      "ImgLink": "/images/edi.png",
+      "date": "Mar 17, 2022",
+      "delay": "700",
+      "title": "Configure the React SimpleMDE Markdown Editor",
+      "link": "https://giftea.hashnode.dev/configure-the-react-simplemde-markdown-editor-to-allow-for-image-upload-by-drag-and-drop-and-copy-and-paste"
+    },
+
+    {
+      "ImgLink": "/images/rust.png",
+      "date": "Mar 25, 2022",
+      "delay": "700",
+      "title": "Free resources to learn Rust in 2022 🦀",
+      "link": "https://giftea.hashnode.dev/free-resources-to-learn-rust-in-2022"
+    },
+
+    {
+      "ImgLink": "/images/jest.png",
+      "date": "May 14, 2022",
+      "delay": "700",
+      "title": "A Beginner's Guide to Testing React Applications with React Testing Library and Jest",
+      "link": "https://giftea.hashnode.dev/a-beginners-guide-to-testing-react-applications-with-react-testing-library-and-jest"
+    },
+
+    {
+      "ImgLink": "/images/near-blog.png",
+      "date": "Sep 12, 2022",
+      "delay": "700",
+      "title": "NEAR Tutorial - Build a Decentralized Blog",
+      "link": "https://giftea.hashnode.dev/near-tutorial-build-a-decentralized-blog-using-assemblyscript-reactjs-near-sdk-near-api"
+    },
+
+    {
+      "ImgLink": "/images/formik.png",
+      "date": "Aug 22, 2022",
+      "delay": "700",
+      "title": "Dynamic Multi-Step Forms With Formik",
+      "link": "https://blog.openreplay.com/dynamic-multi-step-forms-with-formik/"
+    },
+    {
+      "ImgLink": "/images/rematch.png",
+      "date": "Sep 1, 2022",
+      "delay": "700",
+      "title": "Rematch: An Improved Redux-Based State Handler",
+      "link": "https://blog.openreplay.com/rematch-an-improved-redux-based-state-handler/"
+    },
+    {
+      "ImgLink": "/images/table.png",
+      "date": "Sep 20, 2022",
+      "delay": "700",
+      "title": "Build Beautiful Tables With React Table",
+      "link": "https://blog.openreplay.com/better-tables-with-react-table/"
+    },
+
+    {
+      "ImgLink": "/images/chart.jpeg",
+      "date": "Dec 5, 2022",
+      "delay": "700",
+      "title": "The Top 6 React Graph Visualization Libraries for Data Visualization",
+      "link": "https://code.pieces.app/blog/top-react-graph-visualization-libraries"
+    },
+
+    {
+      "ImgLink": "/images/xata.jpeg",
+      "date": "Nov 23, 2022",
+      "delay": "700",
+      "title": "Build a full-stack JAMStack application with Xata, Cloudinary, and NextJs",
+      "link": "https://dev.to/hackmamba/build-a-full-stack-jamstack-application-with-xata-cloudinary-and-nextjs-50pd"
+    }
+  ],
+  "sliderData": {
+    "testimonialInfo": {
+      "useFor": "testimonial",
+      "settings": {
+        "infinite": true,
+        "speed": 1500,
+        "autoplay": true,
+        "autoplaySpeed": 5000,
+        "slidesToShow": 2,
+        "slidesToScroll": 1,
+        "arrows": false,
+        "dots": true,
+        "responsive": [
+          {
+            "breakpoint": 991,
+            "settings": {
+              "slidesToShow": 1,
+              "autoplay": true
+            }
+          }
+        ]
+      },
+      "info": [
+        {
+          "imgLink": "/images/avatar-1.jpg",
+          "name": "Ema Watson",
+          "designation": "Chief Executive Officer, Brazil",
+          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+        },
+        {
+          "imgLink": "/images/avatar-2.jpg",
+          "name": "Ema Watson",
+          "designation": "Chief Executive Officer, Brazil",
+          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+        },
+        {
+          "imgLink": "/images/avatar-1.jpg",
+          "name": "Ema Watson",
+          "designation": "Chief Executive Officer, Brazil",
+          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+        },
+        {
+          "imgLink": "/images/avatar-2.jpg",
+          "name": "Ema Watson",
+          "designation": "Chief Executive Officer, Brazil",
+          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+        }
+      ]
+    },
+    "brandInfo": {
+      "useFor": "brand",
+      "settings": {
+        "infinite": true,
+        "speed": 1000,
+        "autoplay": true,
+        "autoplaySpeed": 3000,
+        "slidesToShow": 5,
+        "slidesToScroll": 1,
+        "arrows": false,
+        "responsive": [
+          {
+            "breakpoint": 991,
+            "settings": {
+              "slidesToShow": 4
+            }
+          },
+          {
+            "breakpoint": 767,
+            "settings": {
+              "slidesToShow": 3
+            }
+          }
+        ]
+      },
+      "info": [
+        {
+          "imgLink": "/images/brand-1.png"
+        },
+        {
+          "imgLink": "/images/brand-2.png"
+        },
+        {
+          "imgLink": "/images/brand-3.png"
+        },
+        {
+          "imgLink": "/images/brand-4.png"
+        },
+        {
+          "imgLink": "/images/brand-1.png"
+        },
+        {
+          "imgLink": "/images/brand-2.png"
+        }
+      ]
+    }
+  },
+  "contactData": {
+    "text": "Let's Connect and Create! Your feedback and collaboration are the keystrokes to innovation. Reach out and let's build something amazing together. 🚀",
+    "contactInfo": [
+      {
+        "icon": "linkedin",
+        "title": "Chat to us",
+        "text": "@GiftUhiene",
+        "link": ""
+      },
+      {
+        "icon": "twitter",
+        "title": "Visit us",
+        "text": "@dev_giftea",
+        "link": ""
+      },
+      {
+        "icon": "discord",
+        "title": "Call us",
+        "text": "@giftea",
+        "link": ""
+      }
+    ],
+    "contactForm": {
+      "title": "Got Ideas? We have got the skills. Lets team up.",
+      "text": "Tell us more about yourself and what you are got in mind."
+    }
+  },
+  "footerData": {
+    "ImgLink": "/images/favicon.ico",
+    "name": "Gift Uhiene"
+  },
+  "socialData": [
+    {
+      "link": "https://www.linkedin.com/in/gift-uhiene/",
+      "icon": "linkedin"
+    },
+    {
+      "link": "https://github.com/giftea",
+      "icon": "github"
+    },
+    {
+      "link": "https://giftea.hashnode.dev/",
+      "icon": "hashnode"
+    },
+    {
+      "icon": "twitter",
+      "link": "https://twitter.com/dev_giftea"
+    }
+  ]
+}
