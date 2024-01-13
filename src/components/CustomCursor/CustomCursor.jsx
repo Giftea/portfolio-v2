@@ -23,7 +23,7 @@ const CustomCursor = () => {
             y: event.clientY,
             ease: 'power2.out',
           },
-          '-=0.01',
+          '-=1.5',
         );
       } catch (err) {
         console.log(err);

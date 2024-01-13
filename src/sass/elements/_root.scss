@@ -8,11 +8,12 @@
   --px-theme-2: #{$px-theme-2};
   --px-white: #{$px-white};
   --px-white-rgb: 255, 255, 255;
-
+  --px-theme-light: #{$px-theme-light};
   --px-text: #{$px-text};
   --px-heading: #{$px-heading};
   --px-bg: #{$px-bg};
   --px-dark: #{$px-dark};
+  --px-gradient-light: #{$px-gradient-light};
 }
 
 [data-bs-theme="dark"] {
@@ -20,7 +21,7 @@
 
 @media screen and (max-width: 992px) {
   [data-aos^="fade"][data-aos^="fade"].aos-animate.hb-me {
-	right: -35px;
+    right: -35px;
     opacity: 0.5;
   }
 }

@@ -41,13 +41,13 @@ const Header = ({ data }) => {
           <Link className="navbar-brand" to="/">
             <img
               className="logo-dark"
-              title="Lilon"
+              title="Giftea"
               alt="site-logo"
               src={logoDark}
             />
             <img
               className="logo-light"
-              title="Lilon"
+              title="Giftea"
               alt="site-logo"
               src={logoLight}
               width={40}

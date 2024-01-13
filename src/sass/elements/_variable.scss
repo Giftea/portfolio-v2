@@ -3,17 +3,26 @@
 $px-font: "IBM Plex Sans", sans-serif !important;
 
 // Theme Variable
+// color: linear-gradient(270.16deg,rgb(255 174 112 / 72%) 5.74%,#ffae62 92.05%) ;
 
-$px-theme: #885423;
-$px-theme-2: #3e2009b7;
+// $px-theme: #9c714ce6; rgba(156, 113, 76, 0.5725490196)
+// $px-theme-2: #9c714c92;  rgba(156, 113, 76, 0.5725490196)
+$px-theme: #9c714c92;
+$px-theme-2: #9c714c92;
+$px-theme-3: #9c714c;
+$px-theme-light: #b8916e;
+$px-theme-lighter: #ddb796;
+// $px-theme-2: #573920;
 $px-white: #fffdf8;
 
 $px-text: #f3ebeb;
 $px-heading: #f3ebeb;
-$px-bg: #99775c;
+// $px-bg: #99775c;
+$px-bg: #303030;
 // $px-bg: #100e24;
-$px-dark: #3e2009b7;
+$px-dark: #433931; // header
 $px-dark-2: #3e2009;
+$px-gradient-light: linear-gradient(90deg, var(--px-theme) 0%, var(--px-theme-light)100%);
 // Breakpoints
 $px-media-xsm: 567px !default;
 $px-media-sm: 767px !default;

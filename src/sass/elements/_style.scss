@@ -71,7 +71,7 @@ a {
       }
       span {
         -webkit-text-stroke-width: 2px;
-        -webkit-text-stroke-color: var(--px-theme);
+        -webkit-text-stroke-color: var(--px-theme-light);
         -webkit-text-fill-color: transparent;
         font-weight: 800;
       }
@@ -168,11 +168,7 @@ a {
     line-height: 1;
     letter-spacing: -0.05em;
     text-transform: uppercase;
-    background: linear-gradient(
-      270.16deg,
-      var(--px-theme-2) 5.74%,
-      var(--px-theme) 92.05%
-    );
+    background: var(--px-gradient-light);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -233,11 +229,7 @@ a {
       line-height: 1;
       letter-spacing: -0.05em;
       text-transform: uppercase;
-      background: linear-gradient(
-        270.16deg,
-        var(--px-theme-2) 5.74%,
-        var(--px-theme) 92.05%
-      );
+      background: var(--px-gradient-light);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -316,9 +308,9 @@ a {
   &::before {
     position: absolute;
     content: "";
-    border: 2px solid $px-theme-2;
+    border: 2px solid $px-theme-lighter;
     border-radius: 50%;
-    background-color: $px-dark-2;
+    background-color: $px-theme-lighter;
     width: 13px;
     height: 13px;
     top: 0px;
@@ -328,14 +320,14 @@ a {
 
   &:hover {
     &::before {
-      background-color: $px-white;
+      background-color: $px-dark;
     }
   }
 
   .st-resume-timeline-title {
     font-size: 24px;
     font-weight: 400;
-    color: $px-dark-2;
+    color: $px-theme-lighter;
     margin-top: -7px;
     margin-bottom: 8px;
   }
@@ -704,7 +696,7 @@ a {
 * Blog  Section
 ---------------------------*/
 .dark-text {
-  color: $px-theme;
+  color: var(--px-theme-light);
 }
 .blog-post {
   .blog-post-img {
@@ -803,11 +795,7 @@ a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(
-      270.16deg,
-      var(--px-theme-2) 5.74%,
-      var(--px-theme) 92.05%
-    );
+    background: $px-gradient-light;
     color: var(--px-white);
     font-size: 20px;
     margin-right: 10px;
@@ -864,7 +852,7 @@ a {
   position: fixed;
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  mix-blend-mode: hard-light;
+  // mix-blend-mode: difference;
   z-index: 999999;
   @media (max-width: 991px) {
     display: none !important;
@@ -873,7 +861,7 @@ a {
 .cs_cursor_sm {
   width: 10px;
   height: 10px;
-  background-color: $px-dark-2;
+  background-color: $px-theme-lighter;
   left: 0;
   top: 0;
   pointer-events: none;

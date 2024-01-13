@@ -17,7 +17,6 @@ const Blog = ({ data }) => {
           <SectionHeading
             title="Latest Update"
             subTitle="My Blogs"
-            className="dark-text"
           />
           <div className="row gy-4">
             {data.map((element, index) => (
