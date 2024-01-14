@@ -6,7 +6,7 @@
   "heroData": {
     "title": "I'm <b>Gift</b> <span><br />Uhiene...</span>",
     "subTitle": "<span>Frontend Developer & Technical Writer</span>",
-    "ImgLink": "/images/me2.png",
+    "ImgLink": "https://res.cloudinary.com/dvxrsopw3/image/upload/v1705224047/me2_xipc5s.png",
     "phone": "giftea.hashnode.dev",
     "email": "eleojogiftuhiene@gmail.com",
     "btnText": "Hire me",
