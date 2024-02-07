@@ -1,22 +1,33 @@
 import PropTypes from "prop-types";
 import SectionHeading from "../SectionHeading/SectionHeading";
-import { useState } from "react";
+import { Icon } from "@iconify/react";
+import { useNavigate } from "react-router-dom";
+import { animateScroll as scroll } from "react-scroll";
 
-const Blog = ({ data }) => {
-  // const [tempData, setTempData] = useState([]);
+const Blog = ({ data, isHome = true }) => {
+  const navigate = useNavigate();
+  const blogData = isHome ? data.slice(0, 8) : data;
 
-  // const getData = (imgLink, title, date, paragraphList) => {
-  //   let tempData = [imgLink, title, date, paragraphList];
-  //   setTempData((element) => [1, ...tempData]);
-  // };
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+    console.log('first')
+  };
+
+  scrollToTop()
 
   return (
     <section id="blog">
       <div className="section blog-section bg-dark">
         <div className="container">
+          {!isHome && (
+            <button className="px-btn my" onClick={() => navigate("/")}>
+              <Icon icon="ep:back" />
+              Go Back
+            </button>
+          )}
           <SectionHeading title="Latest Update" subTitle="My Blogs" />
           <div className="row gy-4">
-            {data.toReversed().map((element, index) => (
+            {blogData.toReversed().map((element, index) => (
               <div
                 key={index}
                 className="col-lg-3 col-sm-6"
@@ -45,6 +56,15 @@ const Blog = ({ data }) => {
               </div>
             ))}
           </div>
+          {isHome && (
+            <center>
+              {" "}
+              <button onClick={() => navigate("./blog")} className="px-btn my">
+                View All
+                <Icon icon="bi:arrow-up-right" />
+              </button>
+            </center>
+          )}
         </div>
       </div>
     </section>

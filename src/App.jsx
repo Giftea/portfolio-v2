@@ -7,6 +7,7 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import BlogPage from './pages/Blog';
 
 const App = () => {
   useEffect(() => {
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
         </Route>
+          <Route path="/blog" element={<BlogPage />} />
       </Routes>
     </BrowserRouter>
   );
