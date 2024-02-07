@@ -50,7 +50,7 @@
   .fixed-header & {
     background: var(--px-dark);
 	@media screen and (max-width: 992px) {
-		background-color: #3e2009ef;
+		// background-color: #3e2009ef;
 	  }
   }
   @include up-lg {
@@ -70,7 +70,7 @@
   flex-direction: column;
   transition: ease all 0.35s;
   @media screen and (max-width: 992px) {
-    background-color: #3e2009ef;
+    // background-color: #3e2009ef;
   }
   @include down-lg {
     left: -400px;

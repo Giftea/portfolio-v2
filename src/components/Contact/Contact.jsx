@@ -70,12 +70,15 @@ const Contact = ({ data }) => {
       <div className="container">
         <div className="row gy-5">
           <div className="col-lg-5">
-            <SectionHeading title="Reach out me" subTitle="Contact" />
+            <SectionHeading title="Reach to out me" subTitle="Contact" />
             <div className="contact-info">
               <p>{text}</p>
               <ul>
                 {contactInfo.map((element, index) => (
-                  <div
+                  <a
+                    href={element.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="icon"
                     key={index}
                     data-aos="fade-up"
@@ -83,7 +86,7 @@ const Contact = ({ data }) => {
                     data-aos-delay="400"
                   >
                     <Icon icon={`bi:${element.icon}`} />
-                  </div>
+                  </a>
                 ))}
               </ul>
               {/* <div
@@ -119,7 +122,7 @@ const Contact = ({ data }) => {
                 method="POST"
               >
                 {/* <input type="hidden" name="from_name" value="Gift Uhiene" />
-                <input type="hidden" name="replyto" value="custom@gmail.com" /> */}
+                <input type="hidden" name="replyto" value="" /> */}
                 <div className="row gx-3 gy-4">
                   <div className="col-md-6">
                     <div className="form-group">

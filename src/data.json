@@ -345,6 +345,13 @@
       "title": "Build Beautiful Tables With React Table",
       "link": "https://blog.openreplay.com/better-tables-with-react-table/"
     },
+    {
+      "ImgLink": "/images/image.webp",
+      "date": "Jan 19, 2024",
+      "delay": "700",
+      "title": "Build a Form with Zod and React-Hook-Form",
+      "link": "https://www.devwriteafrica.com/build-a-form-with-zod-and-rhf"
+    },
 
     {
       "ImgLink": "/images/chart.jpeg",
@@ -360,6 +367,13 @@
       "delay": "700",
       "title": "Build a full-stack JAMStack application with Xata, Cloudinary, and NextJs",
       "link": "https://dev.to/hackmamba/build-a-full-stack-jamstack-application-with-xata-cloudinary-and-nextjs-50pd"
+    },
+    {
+      "ImgLink": "/images/fcc.png",
+      "date": "Jan 17, 2024",
+      "delay": "700",
+      "title": "How to Validate Forms with Zod and React-Hook-Form",
+      "link": "https://www.freecodecamp.org/news/react-form-validation-zod-react-hook-form"
     }
   ],
   "sliderData": {
@@ -465,19 +479,19 @@
         "icon": "linkedin",
         "title": "Chat to us",
         "text": "@GiftUhiene",
-        "link": ""
+        "link": "https://www.linkedin.com/in/gift-uhiene/"
       },
       {
         "icon": "twitter",
         "title": "Visit us",
         "text": "@dev_giftea",
-        "link": ""
+        "link": "https://twitter.com/dev_giftea"
       },
       {
-        "icon": "discord",
+        "icon": "github",
         "title": "Call us",
         "text": "@giftea",
-        "link": ""
+        "link": "https://github.com/Giftea"
       }
     ],
     "contactForm": {

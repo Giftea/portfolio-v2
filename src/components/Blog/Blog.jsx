@@ -3,23 +3,20 @@ import SectionHeading from "../SectionHeading/SectionHeading";
 import { useState } from "react";
 
 const Blog = ({ data }) => {
-  const [tempData, setTempData] = useState([]);
+  // const [tempData, setTempData] = useState([]);
 
-  const getData = (imgLink, title, date, paragraphList) => {
-    let tempData = [imgLink, title, date, paragraphList];
-    setTempData((element) => [1, ...tempData]);
-  };
+  // const getData = (imgLink, title, date, paragraphList) => {
+  //   let tempData = [imgLink, title, date, paragraphList];
+  //   setTempData((element) => [1, ...tempData]);
+  // };
 
   return (
     <section id="blog">
       <div className="section blog-section bg-dark">
         <div className="container">
-          <SectionHeading
-            title="Latest Update"
-            subTitle="My Blogs"
-          />
+          <SectionHeading title="Latest Update" subTitle="My Blogs" />
           <div className="row gy-4">
-            {data.map((element, index) => (
+            {data.toReversed().map((element, index) => (
               <div
                 key={index}
                 className="col-lg-3 col-sm-6"
