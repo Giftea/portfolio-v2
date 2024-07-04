@@ -5,7 +5,7 @@
   },
   "heroData": {
     "title": "I'm <b>Gift</b> <span><br />Uhiene...</span>",
-    "subTitle": "<span>Frontend Developer & Technical Writer</span>",
+    "subTitle": "<span>Frontend Developer & UI/UX Designer</span>",
     "ImgLink": "/images/me2.webp",
     "phone": "giftea.hashnode.dev",
     "email": "eleojogiftuhiene@gmail.com",
@@ -29,7 +29,7 @@
     "aboutLeft": {
       "ImgLink": "/images/me.jpg",
       "name": "Gift Uhiene",
-      "designation": "Frontend Developer & Technical Writer",
+      "designation": "Frontend Developer & Designer",
       "resumeCv": "/images/Gift-Uhiene.pdf"
     },
     "aboutRight": {
@@ -54,7 +54,7 @@
       ],
       "archivement": [
         {
-          "number": "2+",
+          "number": "3+",
           "meta": "Years <br /> experience...",
           "text": "Join me in shaping the future of frontend development, where my dedication to user-centric design and continuous learning propels me forward. Let's build together and make a mark in the dynamic world of digital experiences!"
         }
@@ -68,26 +68,26 @@
       "one": [
         {
           "title": "Frontend Developer & Technical Writer",
-          "duration": "Oct 2022 - Sept 2023",
+          "duration": "Oct 2022 - Dec 2023",
           "subTitle": "Koii Network (Remote, Canada)",
           "text": "Authored high-quality technical tutorials, enabling developers to build applications on the Koii Architecture."
         },
         {
-          "title": "React Developer",
-          "duration": "Jan 2022 - Mar 2022",
+          "title": "Web3 React Developer",
+          "duration": "Jan 2022 - Apr 2022",
           "subTitle": "Subsocial (Remote, Ukraine)",
           "text": "Collaborated with the core team members of Subsocial to improve the UI of the Subsocial dapp and add new features to SubId."
         }
       ],
       "two": [
         {
-          "title": "Frontend Developer",
+          "title": "Frontend Developer & Product Designer",
           "duration": "Jan 2021 - Dec 2021",
           "subTitle": "Loctech Nigeria",
           "text": "Collaborated with a cross-functional team to develop Enterprise Resource Planning (ERP) applications for leading engineering service companies in Nigeria."
         },
         {
-          "title": "Jr Frontend Developer",
+          "title": "Junior Frontend Developer & UI/UX Des.",
           "duration": "Sept 2020 - Dec 2020",
           "subTitle": "Zebullon Network",
           "text": "Built landing pages for SMEs to increase the conversion of their offerings."
@@ -130,14 +130,14 @@
       "one": [
         {
           "start": "Oct 2022",
-          "end": "Sept 2023",
+          "end": "Dec 2023",
           "title": "Frontend Developer & Technical Writer",
           "subtitle": "Koii Network"
         },
         {
           "start": "Jan 2022",
-          "end": "Mar 2022",
-          "title": "React Developer",
+          "end": "Apr 2022",
+          "title": "Web3 React Developer",
           "subtitle": "Subsocial"
         }
       ],
@@ -145,13 +145,13 @@
         {
           "start": "Jan 2021",
           "end": "Dec 2021",
-          "title": "Frontend Developer",
+          "title": "Frontend Developer & Product Designer",
           "subtitle": "Loctech"
         },
         {
           "start": "Sept 2020",
           "end": "Dec 2020",
-          "title": "Junior Frontend Developer",
+          "title": "Junior Frontend Developer & UI/UX Des.",
           "subtitle": "Zebullon Network"
         }
       ]
@@ -209,6 +209,26 @@
       ]
     },
     {
+      "ImgLink": "/images/insta.png",
+      "subTitle": "Image • Pinterest",
+      "title": "InstaPic",
+      "link": "https://instapic-giftea.netlify.app",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    {
       "ImgLink": "/images/near.png",
       "subTitle": "NEAR-Blockchain • Dapp",
       "title": "NEAR-Tours",
@@ -229,30 +249,10 @@
       ]
     },
     {
-      "ImgLink": "/images/threza.png",
-      "subTitle": "Dapp • Ethereum",
-      "title": "Threza",
-      "link": "https://threza.vercel.app/",
-      "paragraphList": [
-        {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        }
-      ]
-    },
-    {
-      "ImgLink": "/images/kid.png",
-      "subTitle": "CRUD • Fullstack",
-      "title": "KiddeizGo",
-      "link": "http://kiddiezgo.herokuapp.com/",
+      "ImgLink": "/images/next.png",
+      "subTitle": "Frontend",
+      "title": "Landing Page",
+      "link": "https://next-landingpage-1.vercel.app/",
       "paragraphList": [
         {
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
