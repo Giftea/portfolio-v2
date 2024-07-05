@@ -30,7 +30,7 @@
       "ImgLink": "/images/me.jpg",
       "name": "Gift Uhiene",
       "designation": "Frontend Developer & Designer",
-      "resumeCv": "/images/Gift-Uhiene.pdf"
+      "resumeCv": "/images/Gift_Uhiene.pdf"
     },
     "aboutRight": {
       "aboutText": "Hello there! I'm a self-taught frontend developer passionate about creating seamless user experiences. My personal blog delves into developer-related topics, and you can catch my contributions on freecodecamp, openreplay, and pieces. As a self-taught developer, I deeply value community support, and I actively contribute to open-source projects as a way of giving back.",
@@ -249,10 +249,10 @@
       ]
     },
     {
-      "ImgLink": "/images/next.png",
-      "subTitle": "Frontend",
-      "title": "Landing Page",
-      "link": "https://next-landingpage-1.vercel.app/",
+      "ImgLink": "/images/loop.png",
+      "subTitle": "Frontend • Webpage",
+      "title": "Looped Reality",
+      "link": "https://www.loopedreality.com/",
       "paragraphList": [
         {
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -263,6 +263,28 @@
         {
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/flire.png",
+      "subTitle": "Frontend • Webpage",
+      "title": "Flire Doth",
+      "link": "https://fliredoth.netlify.app/",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/cipher.png",
+      "subTitle": "Frontend • Webpage",
+      "title": "Cipher Series",
+      "link": "https://cipher-series.netlify.app/",
+      "paragraphList": [
         {
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         }
