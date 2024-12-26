@@ -5,7 +5,7 @@
   },
   "heroData": {
     "title": "I'm <b>Gift</b> <span><br />Uhiene...</span>",
-    "subTitle": "<span>Frontend Developer & UI/UX Designer</span>",
+    "subTitle": "<span>Frontend Developer & Technical Writer</span>",
     "ImgLink": "/images/me2.webp",
     "phone": "giftea.hashnode.dev",
     "email": "eleojogiftuhiene@gmail.com",
@@ -29,7 +29,7 @@
     "aboutLeft": {
       "ImgLink": "/images/me.jpg",
       "name": "Gift Uhiene",
-      "designation": "Frontend Developer & Designer",
+      "designation": "Frontend Developer & Technical Writer",
       "resumeCv": "/images/Gift_Uhiene.pdf"
     },
     "aboutRight": {
@@ -151,7 +151,7 @@
         {
           "start": "Sept 2020",
           "end": "Dec 2020",
-          "title": "Junior Frontend Developer & UI/UX Des.",
+          "title": "Junior Frontend Developer",
           "subtitle": "Zebullon Network"
         }
       ]
